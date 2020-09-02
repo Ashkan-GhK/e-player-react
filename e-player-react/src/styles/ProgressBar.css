@@ -1,0 +1,41 @@
+.progressBar {
+  background-color: #808080;
+  color: #606060;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 2px;
+  width: 100%;
+}
+
+.progressBar-circle {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  bottom: auto;
+  margin: -6px 0 0 -6px;
+}
+
+.progressBar-circle:hover {
+  cursor: pointer;
+  transform: none;
+  transition: box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  box-shadow: rgba(63, 81, 181, 0.16) 0px 0px 0px 7px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.progressBar-circle:active {
+  cursor: pointer;
+  transform: none;
+  transition: box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  box-shadow: rgba(63, 81, 181, 0.16) 0px 0px 0px 12px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
