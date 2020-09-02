@@ -1,0 +1,36 @@
+.buttons_container {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 65px;
+  width: 97%;
+}
+
+.buttons_content_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  height: 65px;
+  width: 100%;
+  flex: 0.7;
+}
+.button:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+
+.valumeBar_container {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-top: 5px;
+  height: 65px;
+  flex: 0.3;
+}
+
+.valumeBar_container * .MuiSlider-root {
+  color: white;
+}
